@@ -16,7 +16,7 @@ function App() {
     }
 
     try {
-      const response = await axios.post('https://suleman-user-address-app.onrender.com/api/register', {
+      const response = await axios.post('https://user-address-app.onrender.com/api/register', {
         name,
         address
       });
