@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
-    origin: ['https://suleman-user-address-app.netlify.app'],
+    origin: ['https://user-address-app.netlify.app'],
     optionsSuccessStatus: 200
   };
 
